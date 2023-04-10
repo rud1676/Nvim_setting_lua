@@ -34,8 +34,10 @@ te: new tab
 ## Plugin CheetSheet
 
 어떤 플러그인의 키맵핑인지는 plugin.lua를 참고
-
-  -- <Ctrl+j> : next diagnostics
+|Mapping|Action|
+|--|--|
+|<Ctrl+j>|next diagnostics|
+  --  : 
   -- gd :  find Ref, Def
   -- gp :  find Def
   -- gr :  rename
