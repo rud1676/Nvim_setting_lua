@@ -46,13 +46,13 @@ te: new tab
 |Normal:;d|open diagnostics list in project|
 |Normal:sf|open file_browser|
 |Normal:;;|open last_window|
-|Normal:\\\\|open buffer -> history of openfile or tag|
+|Normal:\\\\\\\\|open buffer -> history of openfile or tag|
 |InWindow:<Ctrl+w>|input_value clear|
-|InWindow:<N>|Create new file in current dir|
-|InWindow:<D>|Remove selected file|
-|InWindow(open with 'sf'):<h>|go to parrent dir|
-|InWindow(open with 'sf'):</>|search mode|
-|<Tab>|change next buffer|
-|<Shift +Tab>|change previous buffer|
+|InWindow:\<N\>|Create new file in current dir|
+|InWindow:\<D\>|Remove selected file|
+|InWindow(open with 'sf'):\<h\>|go to parrent dir|
+|InWindow(open with 'sf'):\</\>|search mode|
+|\<Tab\>|change next buffer|
+|<Shift+Tab>|change previous buffer|
 |\gb|show blame current file line by line|
 |\go|open browser and go to git repostory|
